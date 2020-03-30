@@ -1,0 +1,10 @@
+[description]
+HLS = "Vivado HLS"
+LANG = "C++"
+VERSION = "1.0.0"
+
+[commands]
+unittest =        "make HLS_ARG='unit{args}' csim"
+integrationtest = "make HLS_ARG='integration{args}' csim"
+build =           "make"
+clean =           "make clean"
